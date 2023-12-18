@@ -1,0 +1,34 @@
+version: '3'
+services:
+  nginx:
+    image: nginx:latest
+    restart: unless-stopped
+    container_name: store_nginx
+    networks:
+      - internal
+      - proxy-net
+    volumes:
+      - ./conf/nginx/:/etc/nginx:ro
+      - ./logs/nginx/:/var/log/nginx
+      - /etc/localtime:/etc/localtime:ro
+      - ./certbot/www:/var/www/certbot/:ro
+      - ./certbot/conf/:/etc/letsencrypt/:rw
+    ports:
+      - "8082:80"
+
+  certbot:
+      image: certbot/certbot:latest
+      volumes:
+        - ./certbot/www/:/var/www/certbot/:rw
+        - ./certbot/conf/:/etc/letsencrypt/:rw
+
+volumes:
+  postgres-data:
+
+networks:
+  internal:
+    name: store_internal
+    driver: bridge
+  proxy-net:
+    name: store_external
+    external: true

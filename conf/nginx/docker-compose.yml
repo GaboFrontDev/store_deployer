@@ -1,0 +1,20 @@
+version: '3'
+services:
+  nginx:
+    image: nginx:latest
+    restart: unless-stopped
+    container_name: ${PROJECT_SLUG}_nginx
+    ports:
+      - 80:80
+      - 443:443
+    networks:
+      - external
+    volumes:
+      - ../../backend/public:/app/backend/public
+      - ../../conf/nginx/:/etc/nginx:ro
+      - ../../logs/nginx/:/var/log/nginx
+      - /etc/localtime:/etc/localtime:ro
+
+networks:
+  external:
+    name: ${PROJECT_SLUG}_external

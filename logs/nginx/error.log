@@ -1,0 +1,26 @@
+2023/12/18 13:37:49 [emerg] 1#1: host not found in upstream "store_server" in /etc/nginx/default.conf:20
+2023/12/18 13:37:58 [emerg] 1#1: host not found in upstream "store_server" in /etc/nginx/default.conf:20
+2023/12/18 13:38:07 [emerg] 1#1: host not found in upstream "store_server" in /etc/nginx/default.conf:20
+2023/12/18 13:38:44 [emerg] 1#1: host not found in upstream "store_server" in /etc/nginx/default.conf:20
+2023/12/18 13:38:53 [emerg] 1#1: host not found in upstream "store_server" in /etc/nginx/default.conf:20
+2023/12/18 13:39:02 [emerg] 1#1: host not found in upstream "store_server" in /etc/nginx/default.conf:20
+2023/12/18 13:39:10 [emerg] 1#1: host not found in upstream "store_server" in /etc/nginx/default.conf:20
+2023/12/18 13:39:20 [emerg] 1#1: host not found in upstream "store_server" in /etc/nginx/default.conf:20
+2023/12/18 13:39:30 [emerg] 1#1: host not found in upstream "store_server" in /etc/nginx/default.conf:20
+2023/12/18 13:39:41 [emerg] 1#1: host not found in upstream "store_server" in /etc/nginx/default.conf:20
+2023/12/18 13:39:56 [emerg] 1#1: host not found in upstream "store_server" in /etc/nginx/default.conf:20
+2023/12/18 13:40:17 [emerg] 1#1: host not found in upstream "store_server" in /etc/nginx/default.conf:20
+2023/12/18 13:40:51 [emerg] 1#1: host not found in upstream "store_server" in /etc/nginx/default.conf:20
+2023/12/18 13:41:51 [emerg] 1#1: host not found in upstream "store_server" in /etc/nginx/default.conf:20
+2023/12/18 13:43:00 [emerg] 1#1: host not found in upstream "store_server" in /etc/nginx/default.conf:20
+2023/12/18 13:44:08 [emerg] 1#1: host not found in upstream "store_server" in /etc/nginx/default.conf:20
+2023/12/18 13:45:16 [emerg] 1#1: host not found in upstream "store_server" in /etc/nginx/default.conf:20
+2023/12/18 13:46:25 [emerg] 1#1: host not found in upstream "store_server" in /etc/nginx/default.conf:20
+2023/12/18 13:47:33 [emerg] 1#1: host not found in upstream "store_server" in /etc/nginx/default.conf:20
+2023/12/18 13:48:42 [emerg] 1#1: host not found in upstream "store_server" in /etc/nginx/default.conf:20
+2023/12/18 13:49:50 [emerg] 1#1: host not found in upstream "store_server" in /etc/nginx/default.conf:20
+2023/12/18 13:50:58 [emerg] 1#1: host not found in upstream "store_strapi" in /etc/nginx/default.conf:34
+2023/12/18 13:52:07 [emerg] 1#1: duplicate location "/" in /etc/nginx/default.conf:18
+2023/12/18 13:53:11 [emerg] 1#1: duplicate location "/" in /etc/nginx/default.conf:18
+2023/12/18 13:54:12 [emerg] 1#1: duplicate location "/" in /etc/nginx/default.conf:18
+2023/12/18 13:55:12 [emerg] 1#1: duplicate location "/" in /etc/nginx/default.conf:18
